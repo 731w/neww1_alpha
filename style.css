@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: transparent;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#menu {
+    width: 760px;
+    height: 480px;
+    background: rgba(0,0,0,0.75);
+    margin: 80px auto;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    padding: 8px 16px;
+    opacity: 0.4;
+    border-radius: 6px;
+}
+
+.tab.active {
+    opacity: 1;
+    background: rgba(140,90,255,0.6);
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.btn {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 6px;
+}
+
+.btn.active {
+    background: rgba(140,90,255,0.8);
+}
